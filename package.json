@@ -1,7 +1,8 @@
 {
-  "name": "my-v0-project",
+  "name": "hously-modern-architecture",
   "version": "0.1.0",
   "private": true,
+  "description": "Hously modern architecture studio — elegant portfolio workspace with immersive hero motion and curated project galleries.",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
