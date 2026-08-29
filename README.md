@@ -1,12 +1,12 @@
-﻿# Hously â€” Modern Architecture Studio
+﻿# Hously — Modern Architecture Studio
 
 Elegant full-stack workspace for architecture studios, property showcases, and design portfolios with immersive hero motion, curated project galleries, and enterprise-ready deployment.
 
-**Live Demo:** https://hously-modern-architecture.vercel.app
+**Live Demo:** https://hously-architecture.vercel.app
 
 **Category:** Architecture / Real Estate
 
-**Stack:** Next.js 16 Â· React 19 Â· TypeScript Â· Tailwind CSS v4 Â· Radix UI Â· shadcn/ui
+**Stack:** Next.js 16 · React 19 · TypeScript · Tailwind CSS v4 · Radix UI · shadcn/ui
 
 ## Overview
 
@@ -14,11 +14,11 @@ Hously presents modern architecture with editorial precision. The workspace comb
 
 ## Features
 
-- **Immersive Motion Hero** â€” Scroll-driven parallax with foreground/background depth, 3D transforms, and touch + wheel handling for cinematic entry.
-- **Curated Project Gallery** â€” Dedicated `Projects` section for showcasing architectural work with consistent visual language.
-- **Narrative Sections** â€” `Philosophy`, `Expertise`, `FAQ`, and `CallToAction` modules for storytelling and lead conversion.
-- **Design System Excellence** â€” Full Radix UI suite, shadcn/ui, and Tailwind tokens for accessible, themeable components.
-- **Performance & Deployment Ready** â€” Optimized Next.js build, type-safe codebase, and static/hosted deployment flexibility.
+- **Immersive Motion Hero** — Scroll-driven parallax with foreground/background depth, 3D transforms, and touch + wheel handling for cinematic entry.
+- **Curated Project Gallery** — Dedicated `Projects` section for showcasing architectural work with consistent visual language.
+- **Narrative Sections** — `Philosophy`, `Expertise`, `FAQ`, and `CallToAction` modules for storytelling and lead conversion.
+- **Design System Excellence** — Full Radix UI suite, shadcn/ui, and Tailwind tokens for accessible, themeable components.
+- **Performance & Deployment Ready** — Optimized Next.js build, type-safe codebase, and static/hosted deployment flexibility.
 
 ## Tech Stack
 
@@ -34,27 +34,27 @@ Hously presents modern architecture with editorial precision. The workspace comb
 
 ```
 hously-modern-architecture/
-â”œâ”€â”€ app/
-â”‚   â”œâ”€â”€ page.tsx                # Home composition (Header â†’ Hero â†’ Philosophy â†’ Projects â†’ Expertise â†’ FAQ â†’ CTA â†’ Footer)
-â”‚   â”œâ”€â”€ layout.tsx              # Root layout and metadata
-â”‚   â””â”€â”€ globals.css             # Global styles and design tokens
-â”œâ”€â”€ components/
-â”‚   â”œâ”€â”€ header.tsx              # Navigation
-â”‚   â”œâ”€â”€ hero.tsx                # Motion-driven hero with parallax
-â”‚   â”œâ”€â”€ philosophy.tsx          # Studio philosophy
-â”‚   â”œâ”€â”€ projects.tsx            # Project gallery
-â”‚   â”œâ”€â”€ expertise.tsx           # Expertise showcase
-â”‚   â”œâ”€â”€ faq.tsx                 # FAQ
-â”‚   â”œâ”€â”€ call-to-action.tsx      # Conversion CTA
-â”‚   â”œâ”€â”€ footer.tsx              # Footer
-â”‚   â””â”€â”€ ui/                     # Reusable primitives (shadcn/ui)
-â”œâ”€â”€ services/                   # Optional service layer for inquiries, bookings, CMS
-â”‚   â””â”€â”€ _shared.ts              # Service helpers (add endpoints here)
-â”œâ”€â”€ hooks/                      # Custom React hooks
-â”œâ”€â”€ lib/                        # Utilities and helpers
-â”œâ”€â”€ public/images/              # Hero and project assets
-â”œâ”€â”€ styles/                     # Additional style modules
-â””â”€â”€ package.json
+├── app/
+│   ├── page.tsx                # Home composition (Header → Hero → Philosophy → Projects → Expertise → FAQ → CTA → Footer)
+│   ├── layout.tsx              # Root layout and metadata
+│   └── globals.css             # Global styles and design tokens
+├── components/
+│   ├── header.tsx              # Navigation
+│   ├── hero.tsx                # Motion-driven hero with parallax
+│   ├── philosophy.tsx          # Studio philosophy
+│   ├── projects.tsx            # Project gallery
+│   ├── expertise.tsx           # Expertise showcase
+│   ├── faq.tsx                 # FAQ
+│   ├── call-to-action.tsx      # Conversion CTA
+│   ├── footer.tsx              # Footer
+│   └── ui/                     # Reusable primitives (shadcn/ui)
+├── services/                   # Optional service layer for inquiries, bookings, CMS
+│   └── _shared.ts              # Service helpers (add endpoints here)
+├── hooks/                      # Custom React hooks
+├── lib/                        # Utilities and helpers
+├── public/images/              # Hero and project assets
+├── styles/                     # Additional style modules
+└── package.json
 ```
 
 > `services/` is reserved as the canonical service directory for future backend extensions (inquiry forms, scheduling, property CMS) and aligns with the workspace service convention.
@@ -105,14 +105,14 @@ npm run start
 
 ### GitHub Pages
 
-Live Demo: https://hously-modern-architecture.vercel.app
+Live Demo: https://hously-architecture.vercel.app
 
 Configure `next.config.mjs` for static export if deploying to a sub-path:
 
 ```js
 const nextConfig = {
   output: 'export',
-  basePath: '/hously-modern-architecture',
+  basePath: '/hously-architecture',
 }
 ```
 
